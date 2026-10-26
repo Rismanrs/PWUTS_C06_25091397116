@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin | Rifam Sweets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <h2 class="logo">Rifam <span>Sweets</span></h2>
+            <p class="logo-subtitle">ROTI & KUE</p>
+
+            <nav class="menu">
+                <a href="index.html" class="active">Dashboard</a>
+                <a href="promo.html" data-page="promo">Kelola Promo</a>
+                <a href="form-promo.html" data-page="form-promo">Buat Promo</a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="avatar">A</div>
+                <div>
+                    <strong>Administrator</strong>
+                    <p>Admin Rifam Sweets</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content" id="content">
+            <header class="topbar">
+                <p>Rifam Sweets / <strong>Dashboard</strong></p>
+                <span class="admin-tag">Admin Panel</span>
+            </header>
+
+            <section class="welcome welcome-dashboard">
+                <div class="welcome-copy">
+                    <p class="eyebrow">PANEL ADMIN RIFAM SWEETS</p>
+                    <h1>Manajemen Promo</h1>
+                    <p>Kelola promo toko roti dan kue dengan mudah dalam satu tempat.</p>
+                    <a href="promo.html" class="button" data-page="promo">
+                        Lihat Semua Promo →
+                    </a>
+                </div>
+                <img src="images/banner-roti.jpg" alt="Aneka roti Rifam Sweets" class="banner-roti">
+            </section>
+
+            <section class="stats-grid">
+                <article class="stat-card">
+                    <span class="stat-icon">％</span>
+                    <div>
+                        <p>Total Promo</p>
+                        <h2 id="totalPromo">—</h2>
+                    </div>
+                </article>
+
+                <article class="stat-card stat-active">
+                    <span class="stat-icon">✓</span>
+                    <div>
+                        <p>Promo Aktif</p>
+                        <h2 id="promoAktif">—</h2>
+                    </div>
+                </article>
+
+                <article class="stat-card stat-inactive">
+                    <span class="stat-icon">Ⅱ</span>
+                    <div>
+                        <p>Promo Nonaktif</p>
+                        <h2 id="promoNonaktif">—</h2>
+                    </div>
+                </article>
+            </section>
+
+            <section class="promo-area dashboard-action">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">MANAJEMEN TOKO</p>
+                        <h2>Kelola Promo Toko</h2>
+                        <p>Tambah promo baru atau perbarui promo yang sudah ada.</p>
+                    </div>
+                </div>
+
+                <div class="dashboard-buttons">
+                    <a href="promo.html" class="button" data-page="promo">
+                        ％ Kelola Promo
+                    </a>
+                    <a href="form-promo.html" class="button button-outline" data-page="form-promo">
+                        ＋ Buat Promo Baru
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

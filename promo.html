@@ -1,0 +1,61 @@
+
+<section class="welcome">
+    <div>
+        <p class="eyebrow">MANAJEMEN KAMPANYE</p>
+        <h1>Kelola Promo</h1>
+        <p>Tambah, cari, dan pantau promo Rifam Sweets.</p>
+    </div>
+    <a href="form-promo.html" class="button" data-page="form-promo">
+        + Buat Promo
+    </a>
+</section>
+
+<section class="promo-summary">
+    <div class="summary-card">
+        <div class="summary-icon icon-total">▤</div>
+        <div>
+            <p>Total Promo</p>
+            <h2 id="totalPromo">0</h2>
+            <span>Semua promo tersimpan</span>
+        </div>
+    </div>
+
+    <div class="summary-card">
+        <div class="summary-icon icon-active">✓</div>
+        <div>
+            <p>Promo Aktif</p>
+            <h2 id="activePromo">0</h2>
+            <span>Sedang berlangsung</span>
+        </div>
+    </div>
+
+    <div class="summary-card">
+        <div class="summary-icon icon-inactive">◷</div>
+        <div>
+            <p>Promo Nonaktif</p>
+            <h2 id="inactivePromo">0</h2>
+            <span>Tidak sedang ditampilkan</span>
+        </div>
+    </div>
+</section>
+
+<section class="promo-area">
+    <div class="section-heading">
+        <h2>Daftar Promo</h2>
+    </div>
+
+    <div class="promo-tools">
+        <input type="search" id="searchPromo" placeholder="Cari nama promo...">
+        <select id="filterStatus">
+            <option value="semua">Semua Status</option>
+            <option value="aktif">Aktif</option>
+            <option value="nonaktif">Nonaktif</option>
+        </select>
+    </div>
+
+    <div class="promo-grid" id="promoList">
+        <p>Memuat data promo...</p>
+    </div>
+
+    <p id="emptyPromo" style="display:none;">Promo tidak ditemukan.</p>
+</section>
