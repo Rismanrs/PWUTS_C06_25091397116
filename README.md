@@ -77,38 +77,38 @@ Kolom Tabel promo
 - created_at — waktu data promo dibuat.
 
 6. Cara Menjalankan Website
-1. Buka XAMPP, lalu jalankan Apache dan MySQL.
-2. Letakkan folder proyek PWUTS_C06_25091397116 di direktori htdocs.
-3. Buka http://localhost/phpmyadmin.
-4. Pilih menu Import, lalu pilih file database.sql dari folder proyek.
-5. Jalankan proses import dan pastikan database toko_roti_uts berhasil dibuat.
-6. Periksa konfigurasi koneksi database pada koneksi.php.
-7. Buka aplikasi melalui http://localhost/PWUTS_C06_25091397116/index.html .
+- Buka XAMPP, lalu jalankan Apache dan MySQL.
+- Letakkan folder proyek PWUTS_C06_25091397116 di direktori htdocs.
+- Buka http://localhost/phpmyadmin.
+- Pilih menu Import, lalu pilih file database.sql dari folder proyek.
+- Jalankan proses import dan pastikan database toko_roti_uts berhasil dibuat.
+- Periksa konfigurasi koneksi database pada koneksi.php.
+- Buka aplikasi melalui http://localhost/PWUTS_C06_25091397116/index.html .
 
 
 7. Cara Menggunakan Fitur Promo
 Menambahkan promo
-1. Buka menu Kelola Promo.
-2. Klik Buat Promo.
-3. Isi nama promo dan deskripsi.
-4. Masukkan persentase diskon.
-5. Isi nama produk.
-6. Pilih tanggal mulai dan tanggal selesai.
-7. Pilih status promo.
-8. Klik Simpan Promo.
+- Buka menu Kelola Promo.
+- Klik Buat Promo.
+- Isi nama promo dan deskripsi.
+- Masukkan persentase diskon.
+- Isi nama produk.
+- Pilih tanggal mulai dan tanggal selesai.
+- Pilih status promo.
+- Klik Simpan Promo.
 
 Mengedit promo
-1. Pilih promo yang ingin diubah.
-2. Klik Edit.
-3. Periksa data yang muncul pada formulir.
-4. Ubah data yang diperlukan.
-5. Simpan perubahan.
+- Pilih promo yang ingin diubah.
+- Klik Edit.
+- Periksa data yang muncul pada formulir.
+- Ubah data yang diperlukan.
+- Simpan perubahan.
 
 Menghapus promo
-1. Klik Hapus pada promo yang dipilih.
-2. Baca pesan konfirmasi.
-3. Pilih OK jika yakin ingin menghapus.
-4. Daftar promo akan dimuat ulang setelah proses berhasil.
+- Klik Hapus pada promo yang dipilih.
+- Baca pesan konfirmasi.
+- Pilih OK jika yakin ingin menghapus.
+- Daftar promo akan dimuat ulang setelah proses berhasil.
 
 Memfilter promo
 Pilih Semua Status, Aktif, atau Nonaktif pada pilihan filter. Daftar akan menampilkan promo sesuai status yang dipilih.
